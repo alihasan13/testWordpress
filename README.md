@@ -1,0 +1,2 @@
+# testWordpress
+WordPress Static Site
