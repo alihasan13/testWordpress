@@ -1,0 +1,12 @@
+2020-12-16T22:46:33+00:00 CRITICAL Uncaught StaticHTMLOutput\StaticHTMLOutputException: StaticHTMLOutput\StaticHTMLOutputException: GitHub API bad response status in C:\xampp\htdocs\exam\wp-content\plugins\static-html-output-plugin\src\GitHub.php:181
+Stack trace:
+#0 C:\xampp\htdocs\exam\wp-content\plugins\static-html-output-plugin\static-html-output-plugin.php(242): StaticHTMLOutput\GitHub->test_upload()
+#1 C:\xampp\htdocs\exam\wp-includes\class-wp-hook.php(287): static_html_output_ajax('')
+#2 C:\xampp\htdocs\exam\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\exam\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\exam\wp-admin\admin-ajax.php(176): do_action('wp_ajax_wp_stat...')
+#5 {main} in C:\xampp\htdocs\exam\wp-content\plugins\static-html-output-plugin\src\GitHub.php:186
+Stack trace:
+#0 C:\xampp\htdocs\exam\wp-content\plugins\static-html-output-plugin\static-html-output-plugin.php(242): StaticHTMLOutput\GitHub->test_upload()
+#1 C:\xampp\htdocs\exam\wp-includes\class-wp-hook in C:\xampp\htdocs\exam\wp-content\plugins\static-html-output-plugin\src\GitHub.php on line 186
+
