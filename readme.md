@@ -1,1 +1,1 @@
-https://https//alihasan13.github.io/testWordpress/
+https://alihasan13.github.io/testWordpress/
